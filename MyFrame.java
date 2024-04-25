@@ -275,7 +275,7 @@ public class MyFrame extends JFrame implements ActionListener {
     
     public static String calcolaCodiceLuogoNascita(String luogoNascita) {
         
-        String filePath = new File("C:\\Users\\aless\\Desktop\\java\\scuola\\altri\\CODICI\\codici.csv").getAbsolutePath();
+        String filePath = new File("directory del file codici.csv").getAbsolutePath();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
